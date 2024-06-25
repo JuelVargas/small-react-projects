@@ -1,13 +1,18 @@
 
 import './App.css'
-import Accordion from './Components/accordion/Accordion.jsx'
+// import Accordion from './Components/accordion/Accordion.jsx'
+import RandomColor from './Components/random-color/index.jsx'
 
 function App() {
   
 
   return (
     <>
-      <Accordion />
+    {/* acordion component */}
+      {/* <Accordion /> */}
+    {/* random color component */}
+    <RandomColor/>
+
     </>
   )
 }
