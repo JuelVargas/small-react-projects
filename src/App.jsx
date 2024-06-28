@@ -2,6 +2,7 @@
 import './App.css'
 // import Accordion from './Components/accordion/Accordion.jsx'
 import RandomColor from './Components/random-color/index.jsx'
+import StarRating from './Components/star-rating/index.jsx'
 
 function App() {
   
@@ -11,7 +12,9 @@ function App() {
     {/* acordion component */}
       {/* <Accordion /> */}
     {/* random color component */}
-    <RandomColor/>
+    {/* <RandomColor/> */}
+
+    <StarRating noOfStars={10}/>
 
     </>
   )
