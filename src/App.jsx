@@ -5,6 +5,8 @@ import LoadMoreData from './Components/load-more-data/index.jsx'
 // import Accordion from './Components/accordion/Accordion.jsx'
 import RandomColor from './Components/random-color/index.jsx'
 import StarRating from './Components/star-rating/index.jsx'
+import { menus } from './Components/tree-view/data.js'
+import TreeView from './Components/tree-view/index.jsx'
 
 function App() {
 
@@ -22,7 +24,11 @@ function App() {
       {/* <ImageSlider url={'https://picsum.photos/v2/list'} limit={'10'} page={'1'} /> */}
 
       {/* Load more products component */}
-      <LoadMoreData/>
+      {/* <LoadMoreData/> */}
+
+      {/* Tree view component/menu UI component/ recursive navigation */}
+
+      <TreeView menus={menus} />
 
     </>
   )
