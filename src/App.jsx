@@ -2,6 +2,7 @@
 import './App.css'
 import ImageSlider from './Components/image-slider/index.jsx'
 import LoadMoreData from './Components/load-more-data/index.jsx'
+import QRCodeGenerator from './Components/qr-code-generator/index.jsx'
 // import Accordion from './Components/accordion/Accordion.jsx'
 import RandomColor from './Components/random-color/index.jsx'
 import StarRating from './Components/star-rating/index.jsx'
@@ -27,8 +28,11 @@ function App() {
       {/* <LoadMoreData/> */}
 
       {/* Tree view component/menu UI component/ recursive navigation */}
+      {/* <TreeView menus={menus} /> */}
 
-      <TreeView menus={menus} />
+      {/* QR Code Generator */}
+
+      <QRCodeGenerator />
 
     </>
   )
