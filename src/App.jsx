@@ -6,6 +6,7 @@ import LoadMoreData from './Components/load-more-data/index.jsx'
 import QRCodeGenerator from './Components/qr-code-generator/index.jsx'
 // import Accordion from './Components/accordion/Accordion.jsx'
 import RandomColor from './Components/random-color/index.jsx'
+import ScrollIndicator from './Components/scroll-indicator/index.jsx'
 import StarRating from './Components/star-rating/index.jsx'
 import { menus } from './Components/tree-view/data.js'
 import TreeView from './Components/tree-view/index.jsx'
@@ -35,7 +36,10 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* light and dark theme switch */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
+
+      {/* Scroll Indicator */}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
 
     </>
   )
