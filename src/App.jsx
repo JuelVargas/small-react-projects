@@ -1,5 +1,6 @@
 
 import './App.css'
+import TabTest from './Components/custom-tabs/tab-test.jsx'
 import ImageSlider from './Components/image-slider/index.jsx'
 import LightDarkMode from './Components/light-dark-mode/index.jsx'
 import LoadMoreData from './Components/load-more-data/index.jsx'
@@ -39,7 +40,10 @@ function App() {
       {/* <LightDarkMode/> */}
 
       {/* Scroll Indicator */}
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+      {/* Custom tabas component */}
+      <TabTest />
 
     </>
   )
