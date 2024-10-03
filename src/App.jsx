@@ -1,5 +1,6 @@
 
 import './App.css'
+import ModalTest from './Components/custom-modal-popup/modal-test.jsx'
 import TabTest from './Components/custom-tabs/tab-test.jsx'
 import ImageSlider from './Components/image-slider/index.jsx'
 import LightDarkMode from './Components/light-dark-mode/index.jsx'
@@ -43,8 +44,10 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
       {/* Custom tabas component */}
-      <TabTest />
+      {/* <TabTest /> */}
 
+      {/* Custom modal component */}
+      <ModalTest />
     </>
   )
 }
